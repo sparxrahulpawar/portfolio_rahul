@@ -1,0 +1,19 @@
+/* CustomCursor.css */
+  .custom-cursor {
+    position: fixed;
+    width: 20px; /* Customize cursor width */
+    height: 20px; /* Customize cursor height */
+    border: 2px solid #ff4081; /* Cursor border color */
+    border-radius: 50%; /* Make the cursor circular */
+    pointer-events: none; /* Prevent the cursor from blocking events */
+    z-index: 9999; /* Ensure it stays on top */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    background-color: transparent; /* Default background */
+  }
+  
+  /* Optional hover effects */
+  .custom-cursor:hover {
+    background-color: rgba(255, 64, 129, 0.5); /* Background color on hover */
+    transform: scale(1.2); /* Slightly scale the cursor */
+  }
+  

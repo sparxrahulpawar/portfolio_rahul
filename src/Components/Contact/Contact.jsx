@@ -38,10 +38,7 @@ const Contact = () => {
       <div className="contact-section">
         <div className="contact-left">
           <h1>Let's talk</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus,
-            nihil.
-          </p>
+          <p>A enthusiast developer from Indore with 1.8 years of experience</p>
           <div className="contact-details">
             <div className="contact-detail">
               <img src={email} alt="email-icon" />

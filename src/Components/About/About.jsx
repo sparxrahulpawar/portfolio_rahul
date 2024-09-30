@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import underline from "../../assets/underline.svg";
 import profile_pic from "../../assets/profile_pic2.png";
+import CountUp from "../../SubComponents/CountUp";
 
 const About = () => {
   return (
@@ -64,17 +65,17 @@ const About = () => {
           </div>
           <div className="about-achivements">
             <div className="about-achivement">
-              <h1>1.8+</h1>
-              <p>YEARS OF EXPRIENCE</p>
+              <CountUp targetNumber={1.8} decimalPlaces={1} />
+              <p>YEARS OF EXPERIENCE</p>
             </div>
             <hr />
             <div className="about-achivement">
-              <h1>4+</h1>
+              <CountUp targetNumber={4} />
               <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
             <div className="about-achivement">
-              <h1>2+</h1>
+              <CountUp targetNumber={3} />
               <p>HAPPY CLIENTS</p>
             </div>
           </div>
