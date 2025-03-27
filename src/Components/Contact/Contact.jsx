@@ -4,6 +4,7 @@ import underline from "../../assets/underline.svg";
 import email from "../../assets/email.png";
 import phone from "../../assets/phone.png";
 import address from "../../assets/address.png";
+import linkedin from "../../assets/linkedin.png";
 
 const Contact = () => {
   const onSubmit = async (event) => {
@@ -38,7 +39,7 @@ const Contact = () => {
       <div className="contact-section">
         <div className="contact-left">
           <h1>Let's talk</h1>
-          <p>A enthusiast developer from Indore with 1.8 years of experience</p>
+          <p>A enthusiast developer from Indore with 2+ years of experience</p>
           <div className="contact-details">
             <div className="contact-detail">
               <img src={email} alt="email-icon" />
@@ -50,7 +51,13 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={address} alt="location-icon" />
-              <p>Indore M.P INDIA</p>
+              <p>Indore, Madhya Pradesh, INDIA</p>
+            </div>
+            <div className="contact-detail">
+              <img src={linkedin} alt="Linkedin-icon" />
+              <a href="https://www.linkedin.com/in/rahul-pawar-496148243/">
+                www.linkedin.com/in/rahul-pawar-496148243
+              </a>
             </div>
           </div>
         </div>

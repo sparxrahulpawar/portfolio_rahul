@@ -67,7 +67,11 @@ const Hero = () => {
         </motion.span>
         , Full Stack Developer
       </h1>
-      <p>A enthusiast developer from Indore with 1.8 years of experience</p>
+      <p>
+        A skilled Full-Stack Developer with 2+ years of experience in Node.js
+        and Express.js. Successfully delivered 5+ projects, building scalable
+        and efficient web solutions.
+      </p>
       <div className="hero-action">
         <div className="hero-connect">
           <AnchorLink className="anchor-link" offset={50} href="#contact">

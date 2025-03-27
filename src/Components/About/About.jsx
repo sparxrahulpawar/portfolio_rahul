@@ -18,33 +18,35 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am a passionate Full Stack Developer with 1.8 years of
-              professional experience, currently employed at Kylient Software
-              Solutions Pvt. Ltd. While working full-time, I am also pursuing my
+              I am a passionate Full-Stack Developer with 2+ years of
+              professional experience, currently working at Kylient Software
+              Solutions Pvt. Ltd. Alongside my full-time role, I am pursuing a
               Master’s degree through distance learning at Lovely Professional
               University (LPU).
             </p>
             <p>
-              With a strong foundation in Node.js, React, Next.js, and databases
-              like MySQL, PostgreSQL, and MongoDB, I specialize in crafting
-              dynamic, scalable web applications. My expertise extends to
-              JavaScript, RESTful APIs, and seamless integration of third-party
-              APIs, enabling me to deliver robust, high-performance solutions.
+              With expertise in Node.js, React, Next.js, and databases like
+              MySQL, PostgreSQL, and MongoDB, I specialize in building scalable,
+              high-performance web applications. I have strong proficiency in
+              JavaScript, RESTful APIs, and third-party API integrations,
+              allowing me to develop robust and efficient solutions.
             </p>
             <p>
-              I am proficient in utilizing modern development tools such as
-              GitHub, Bitbucket, Postman, and VS Code to enhance productivity
-              and ensure streamlined, efficient workflows. My commitment to
-              writing clean, maintainable code reflects my focus on long-term
-              project success. Constantly evolving, I actively keep up with
-              industry trends and advancements to stay at the cutting edge of
-              technology.
+              I actively leverage modern development tools such as GitHub,
+              Bitbucket, Postman, and VS Code to enhance workflow efficiency and
+              maintain high-quality coding standards. Staying up to date with
+              the latest industry trends, I am committed to continuous learning
+              and innovation in web development.
             </p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
               <p>Node JS</p>
-              <hr style={{ width: "70%" }} />
+              <hr style={{ width: "80%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Express JS</p>
+              <hr style={{ width: "80%" }} />
             </div>
             <div className="about-skill">
               <p>React JS</p>
@@ -59,23 +61,27 @@ const About = () => {
               <hr style={{ width: "50%" }} />
             </div>
             <div className="about-skill">
+              <p>MongoDB</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+            <div className="about-skill">
               <p>HTML & CSS</p>
               <hr style={{ width: "60%" }} />
             </div>
           </div>
           <div className="about-achivements">
             <div className="about-achivement">
-              <CountUp targetNumber={1.8} decimalPlaces={1} />
+              <CountUp targetNumber={2.4} decimalPlaces={1} />
               <p>YEARS OF EXPERIENCE</p>
             </div>
             <hr />
             <div className="about-achivement">
-              <CountUp targetNumber={4} />
+              <CountUp targetNumber={5} />
               <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
             <div className="about-achivement">
-              <CountUp targetNumber={3} />
+              <CountUp targetNumber={4} />
               <p>HAPPY CLIENTS</p>
             </div>
           </div>
